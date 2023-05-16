@@ -25,11 +25,11 @@ make
 git clone https://github.com/dertovich/Dream_Princesses.git
 cd Dream_Princesses
 make
-./so_long maps/simple2.ber
+./dream_princesses maps/simple2.ber
 ```
 
 #### Тест проекта
 ```
-cd so_long_tester
+cd tests
 make
 ```
