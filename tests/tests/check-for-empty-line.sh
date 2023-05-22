@@ -8,10 +8,10 @@
   MAP2="maps/invalid/map-empty-line2.ber"
   MAP3="maps/invalid/map-empty-line3.ber"
   MAP4="maps/invalid/map-empty-line4.ber"
-ERROR1=$(./../so_long $MAP1 | grep "Error" | wc -l)
-ERROR2=$(./../so_long $MAP2 | grep "Error" | wc -l)
-ERROR3=$(./../so_long $MAP3 | grep "Error" | wc -l)
-ERROR4=$(./../so_long $MAP4 | grep "Error" | wc -l)
+ERROR1=$(./../dream_princesses $MAP1 | grep "Error" | wc -l)
+ERROR2=$(./../dream_princesses $MAP2 | grep "Error" | wc -l)
+ERROR3=$(./../dream_princesses $MAP3 | grep "Error" | wc -l)
+ERROR4=$(./../dream_princesses $MAP4 | grep "Error" | wc -l)
 
 if [ ${ERROR1} -ge 1 ]
 then

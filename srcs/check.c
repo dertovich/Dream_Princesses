@@ -1,4 +1,4 @@
-#include "../so_long.h"
+#include "../dream_princesses.h"
 
 static int	map_is_one(char *str, int first_last_line, int len, t_vars *vars)
 {
@@ -9,14 +9,14 @@ static int	map_is_one(char *str, int first_last_line, int len, t_vars *vars)
 		i = 0;
 		while (str[i])
 		{
-			if (str[i] != '1')
+			if (str[i] != "1")
 				__exitc__(1, vars, FAILURE);
 			i++;
 		}
 	}
 	else
 	{
-		if ((str[0] != '1') || (str[len - 1] != '1'))
+		if ((str[0] != "1") || (str[len - 1] != "1"))
 			__exitc__(1, vars, FAILURE);
 	}
 	return (1);

@@ -1,4 +1,4 @@
-#include "../so_long.h"
+#include "../dream_princesses.h"
 
 int	event_quit(t_vars *vars)
 {
@@ -14,7 +14,7 @@ void	init_all(t_vars *vars)
 	if (!vars->img)
 		__exit__("Error\n☞ Can't mlx image !\n", vars, FAILURE);
 	vars->win = mlx_new_window(vars->mlx, 100 * vars->map_x_len, 100
-			* vars->map_y_len, "so_long by krolhm");
+			* vars->map_y_len, "Dream Princesses");
 	if (!vars->win)
 		__exit__("Error\n☞ Can't create Window !\n", vars, FAILURE);
 	tex_all(vars);

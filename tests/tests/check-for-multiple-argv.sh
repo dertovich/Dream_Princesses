@@ -8,8 +8,8 @@ RESET="\033[0m"
   MAP="maps/valid/map1.ber"
 EXTRA1="maps/valid/map2.ber"
 EXTRA2="maps/valid/map3.ber"
-  VAL1=$(valgrind --leak-check=full --show-leak-kinds=all --track-origins=yes --quiet --tool=memcheck --keep-debuginfo=yes ./../so_long $MAP $EXTRA1 | grep "Error" > check)
-  VAL2=$(valgrind --leak-check=full --show-leak-kinds=all --track-origins=yes --quiet --tool=memcheck --keep-debuginfo=yes ./../so_long $MAP $EXTRA1 $EXTRA2 | grep "Error" > check)
+  VAL1=$(valgrind --leak-check=full --show-leak-kinds=all --track-origins=yes --quiet --tool=memcheck --keep-debuginfo=yes ./../dream_princesses $MAP $EXTRA1 | grep "Error" > check)
+  VAL2=$(valgrind --leak-check=full --show-leak-kinds=all --track-origins=yes --quiet --tool=memcheck --keep-debuginfo=yes ./../dream_princesses $MAP $EXTRA1 $EXTRA2 | grep "Error" > check)
  ERROR=$(grep "Error" check | wc -l)
 
 ${VAL1}

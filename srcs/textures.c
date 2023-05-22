@@ -1,4 +1,4 @@
-#include "../so_long.h"
+#include "../dream_princesses.h"
 
 void	set_tex(char *path, t_vars *vars, t_img *tex)
 {

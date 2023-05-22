@@ -1,4 +1,4 @@
-#include "../so_long.h"
+#include "../dream_princesses.h"
 
 t_key	*init_key(void)
 {

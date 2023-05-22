@@ -1,4 +1,4 @@
-#include "../so_long.h"
+#include "../dream_princesses.h"
 
 void	pixel_put_color(t_vars *vars, int x, int y, unsigned int color)
 {

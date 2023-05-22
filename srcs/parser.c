@@ -1,4 +1,4 @@
-#include "../so_long.h"
+#include "../dream_princesses.h"
 
 void	get_value(t_vars *vars, t_check check)
 {

@@ -10,11 +10,11 @@ RESET="\033[0m"
   MAP3="maps/invalid/map-missing-W-3.ber"
   MAP4="maps/invalid/map-missing-W-4.ber"
   MAP5="maps/invalid/map-missing-W-5.ber"
-ERROR1=$(./../so_long $MAP1 | grep "Error" | wc -l)
-ERROR2=$(./../so_long $MAP2 | grep "Error" | wc -l)
-ERROR3=$(./../so_long $MAP3 | grep "Error" | wc -l)
-ERROR4=$(./../so_long $MAP4 | grep "Error" | wc -l)
-ERROR5=$(./../so_long $MAP5 | grep "Error" | wc -l)
+ERROR1=$(./../dream_princesses $MAP1 | grep "Error" | wc -l)
+ERROR2=$(./../dream_princesses $MAP2 | grep "Error" | wc -l)
+ERROR3=$(./../dream_princesses $MAP3 | grep "Error" | wc -l)
+ERROR4=$(./../dream_princesses $MAP4 | grep "Error" | wc -l)
+ERROR5=$(./../dream_princesses $MAP5 | grep "Error" | wc -l)
 
 if [ ${ERROR1} -ge 1 ]
 then

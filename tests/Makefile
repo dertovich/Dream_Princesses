@@ -72,7 +72,7 @@ extra-e:
 tester:
 			@ echo
 			@ echo "${PURPLE}***************************************************************${RESET}"
-			@ echo "${PURPLE}*                     so_long_tester                          *${RESET}"
+			@ echo "${PURPLE}*                     dream_tester                          *${RESET}"
 			@ echo "${PURPLE}***************************************************************${RESET}"
 			@ echo
 			@ ./${PATH_TEST}/check-for-no-map.sh

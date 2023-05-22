@@ -1,4 +1,4 @@
-#include "../so_long.h"
+#include "../dream_princesses.h"
 
 int	check_is_file(char *av, t_vars *vars)
 {

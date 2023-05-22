@@ -7,9 +7,9 @@ RESET="\033[0m"
   MAP1="maps/invalid/map-missing-C-1.ber"
   MAP2="maps/invalid/map-missing-C-2.ber"
   MAP3="maps/invalid/map-missing-C-3.ber"
-ERROR1=$(./../so_long $MAP1 | grep "Error" | wc -l)
-ERROR2=$(./../so_long $MAP2 | grep "Error" | wc -l)
-ERROR3=$(./../so_long $MAP3 | grep "Error" | wc -l)
+ERROR1=$(./../dream_princesses $MAP1 | grep "Error" | wc -l)
+ERROR2=$(./../dream_princesses $MAP2 | grep "Error" | wc -l)
+ERROR3=$(./../dream_princesses $MAP3 | grep "Error" | wc -l)
 
 if [ ${ERROR1} -ge 1 ]
 then
