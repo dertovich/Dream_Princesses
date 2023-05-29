@@ -1,4 +1,4 @@
-NAME	=	drean_princesses
+NAME	=	dream_princesses
 
 CC		=	gcc
 CFLAGS	=	-Wall -Wextra -Werror # -g -fsanitize=address
