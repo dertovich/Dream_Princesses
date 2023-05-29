@@ -19,6 +19,15 @@ make bonus
 ./dream_princesses maps/bonus.ber
 ```
 
+
+#### Правила игры
+Для успешного прохождения игроку предстоит собрать все "ядраконьи яйца" за главную героиню Принцессу Селестию и безопасно покинуть карту через портал
+
+# !ИЗБЕГАЙТЕ ОВЕЦ!
+![image](https://github.com/dertovich/Dream_Princesses/assets/86295099/fed21577-2072-4679-a6ae-33c4c0d4251e)
+
+
+
 #### Управление 
 
 "W" - ход вверх
@@ -28,7 +37,3 @@ make bonus
 "S" - ход вниз
 
 "D" - ход вправо
-
-#### Геймплей
-![image](https://github.com/dertovich/Dream_Princesses/assets/86295099/fed21577-2072-4679-a6ae-33c4c0d4251e)
-
