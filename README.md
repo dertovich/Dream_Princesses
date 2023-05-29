@@ -27,9 +27,3 @@ cd Dream_Princesses
 make
 ./dream_princesses maps/simple2.ber
 ```
-
-#### Тест проекта
-```
-cd tests
-make
-```
