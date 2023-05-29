@@ -16,12 +16,19 @@
 git clone https://github.com/dertovich/Dream_Princesses.git
 cd Dream_Princesses
 make bonus
-./dream_princesses maps/simple2.ber
+./dream_princesses maps/bonus.ber
 ```
 
 #### Управление 
 
 "W" - ход вверх
+
 "A" - ход влево
+
 "S" - ход вниз
+
 "D" - ход вправо
+
+#### Геймплей
+![image](https://github.com/dertovich/Dream_Princesses/assets/86295099/fed21577-2072-4679-a6ae-33c4c0d4251e)
+
