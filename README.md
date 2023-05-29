@@ -10,20 +10,11 @@
 - Установленный компилятор GCC
 - Установленная графическая библиотека X11
 
-#### Установка MinilibX
-```
-git clone https://github.com/42Paris/minilibx-linux.git
-cd minilibx-linux
-make
-```
-
-Убедись, что библиотека libmlx.a была успешно скомпилирована.
-
 #### Запуск проекта
 
 ```
 git clone https://github.com/dertovich/Dream_Princesses.git
 cd Dream_Princesses
-make
+make bonus
 ./dream_princesses maps/simple2.ber
 ```
